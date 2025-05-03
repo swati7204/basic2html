@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page Title</title>
+    <link rel="icon" type="image/png"
+    href="favicon.png">
+</head>
+<body>
+    <p style="background-image: url('sunset.jpeg');">this is bg</p>
+        <style>
+            body {
+                background-image:url('shipp.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+
+               }
+               
+               <picture>
+                <source media="(min-width:650px)" srcset="shipp.jpg">
+                <source media="(min-width:465px)" srcset="sunset.jpeg">
+                <img src="shipp.jpg">
+              </picture>
+        </style>
+        <picture>
+                <source media="(min-width:650px)" srcset="shipp.jpg">
+                <source media="(min-width:465px)" srcset="sunset.jpeg">
+                <img src="cat.jpg">
+              </picture>
+    
+</body>
+</html>
